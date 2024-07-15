@@ -1,0 +1,16 @@
+Артём
+Name
+http://127.0.0.1:2/download_chat
+http://127.0.0.1:2/send
+http://127.0.0.1:2/update
+http://127.0.0.1:2/send_file
+http://127.0.0.1:2/download_file
+http://127.0.0.1:2/delete
+http://127.0.0.1:2/get_time
+http://127.0.0.1:2/delete_chat
+http://127.0.0.1:2/get_server_message
+Default25
+True
+True
+None
+http://127.0.0.1:2/
