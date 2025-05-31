@@ -1,7 +1,6 @@
 import random
 import math
 import pickle
-import requests
 import copy
 import time
 
