@@ -15,7 +15,6 @@ import json
 
 
 
-
 imges = []
 is_coding = True
 pth = os.path.dirname(os.path.abspath(__file__))
