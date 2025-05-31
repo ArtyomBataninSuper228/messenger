@@ -8,10 +8,8 @@ import datetime# импорт модуля отвечающего за врем�
 import os
 #import sounddevice as sound_device
 #import soundfile as sound_file
-import simpleaudio as simple_audio #импорт звукового модуля
+#import simpleaudio as simple_audio #импорт звукового модуля
 import subprocess# импорт модуля, открывающего файлы
-
-
 
 
 
@@ -60,16 +58,16 @@ def download_file_address(name):
 def sound():
     if data[13] == "True":
         filename = path2("747-400 gwrn.wav")
-        wave_object = simple_audio.WaveObject.from_wave_file(filename)
-        play_object = wave_object.play()
-        play_object.wait_done()
+        #wave_object = simple_audio.WaveObject.from_wave_file(filename)
+        #play_object = wave_object.play()
+        #play_object.wait_done()
 
 def sound_error():
     if data[13] == "True":
         filename = path2("error 4.wav")
-        wave_object = simple_audio.WaveObject.from_wave_file(filename)
-        play_object = wave_object.play()
-        play_object.wait_done()
+        #wave_object = simple_audio.WaveObject.from_wave_file(filename)
+        #play_object = wave_object.play()
+        #play_object.wait_done()
 
 
 address_book2 = []
