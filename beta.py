@@ -1,7 +1,7 @@
 import sys
 import dearpygui.dearpygui as dpg #импорт графического модуля
 import  requests
-#from requests_toolbelt import MultipartEncoder
+from requests_toolbelt import MultipartEncoder
 from threading import Thread # импорт многопоточности
 import time
 import datetime# импорт модуля отвечающего за время
@@ -12,7 +12,6 @@ import simpleaudio as simple_audio #импорт звукового модуля
 import subprocess# импорт модуля, открывающего файлы
 import mycode as code
 import json
-
 
 
 imges = []
